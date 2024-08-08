@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>Aqui va el Header</h3>
+        <h3>Aqui va el Main Header</h3>
     </div>
 </template>
 
@@ -9,4 +9,8 @@
     name: 'MainHeader'
    }
 </script>
+
+<style scoped>
+
+</style>
 
