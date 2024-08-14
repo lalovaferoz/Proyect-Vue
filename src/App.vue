@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <template>
   <header class="bg-gray-900 text-white">
     <nav
@@ -237,3 +238,20 @@ const callsToAction = [
 
 const mobileMenuOpen = ref(false)
 </script>
+=======
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  
+  <script>
+    import index from './index.html';
+    import MainHeader from './components/commons/MainHeader.vue'
+  </script>
+  
+
+  <RouterView />
+</template>
+
+>>>>>>> ed8c9d6b969ba23dcced4dc1095d6c8a1de2c2d9
