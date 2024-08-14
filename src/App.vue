@@ -6,6 +6,7 @@ import { RouterLink, RouterView } from 'vue-router'
   
   <script>
     import index from './index.html';
+    import MainHeader from './components/commons/MainHeader.vue'
   </script>
   
 
