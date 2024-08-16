@@ -4,16 +4,10 @@
       <h1 class="text-xl font-bold">{{ title }}</h1>
       <nav>
         <ul class="flex space-x-4">
+          <li><a href="#" class="hover:underline">Home</a></li>
           <li><a href="#" class="hover:underline">Gaming</a></li>
           <li><a href="#" class="hover:underline">Students</a></li>
           <li><a href="#" class="hover:underline">Desing</a></li>
-        </ul>
-      </nav>
-      <nav> 
-        <ul class="flex space-x-4">
-          <li><a href="#" class="hover:underline">Home</a></li>
-          <li><a href="#" class="hover:underline">About</a></li>
-          <li><a href="#" class="hover:underline">Contact</a></li>
         </ul>
       </nav>
     </div>
