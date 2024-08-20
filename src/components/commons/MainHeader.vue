@@ -19,7 +19,7 @@ export default {
   name: 'MainHeader',
   data() {
     return {
-      title: 'Mi Proyecto'
+      title: 'MainHeader'
     }
   }
 }

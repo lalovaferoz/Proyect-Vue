@@ -3,7 +3,7 @@
     <MainHeader />
     
       <!-- Contenedor con color sólido de fondo -->
-      <div class="bg-slate-500 w-full h-full min-h-[837px]">
+      <div class="bg-gradient-to-b from-slate-400 to-slate-700 w-full h-full min-h-[837px]">
         <!-- Aquí puedes agregar más contenido si es necesario -->
      
     </div>
