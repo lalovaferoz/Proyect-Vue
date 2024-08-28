@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-gray-800 text-white p-4">
-    <div class="container mx-auto flex justify-between items-start">
+  <header class="bg-gray-800 w-auto h-auto text-white p-4">
+    <div class="container fixed top-0 left-0 right-0 mx-auto flex justify-between items-start">
       <h1 class="text-xl font-bold">{{ title }}</h1>
       <nav>
         <ul class="flex space-x-4">
