@@ -1,10 +1,11 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <MainHeader />
-
-    <!-- Contenedor con color sólido de fondo -->
-    <div class="bg-slate-500 w-full h-full min-h-[837px]">
-      <!-- Aquí puedes agregar más contenido si es necesario -->
+    
+      <!-- Contenedor con color sólido de fondo -->
+      <div class="bg-slate-500 w-full h-full min-h-[837px]">
+        <!-- Aquí puedes agregar más contenido si es necesario -->
+     
     </div>
     <MainFooter />
   </div>
