@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'SiteCard',
+  name: "SiteCard",
   props: {
     image: String,
     title: String,

@@ -31,13 +31,13 @@
 </template>
 
 <script>
-import SiteCard from './components/commons/SiteCard.vue';
-import SiteHeader from './components/commons/SiteHeader.vue';
-import HelloWorld from './components/HelloWorld.vue';
-import SiteFooter from './components/commons/SiteFooter.vue';
+import SiteCard from "./components/commons/SiteCard.vue";
+import SiteHeader from "./components/commons/SiteHeader.vue";
+import HelloWorld from "./components/HelloWorld.vue";
+import SiteFooter from "./components/commons/SiteFooter.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     SiteHeader,
     HelloWorld,

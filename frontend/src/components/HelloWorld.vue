@@ -3,16 +3,16 @@
 </template>
 
 <script>
-import api from '../services/apiService';
+import api from "../services/apiService";
 
 export default {
-  name: 'SomeComponent',
+  name: "SomeComponent",
   async created() {
     try {
-      const response = await api.get('/endpoint');
+      const response = await api.get("/endpoint");
       console.log(response.data);
     } catch (error) {
-      console.error('Error fetching data:', error);
+      console.error("Error fetching data:", error);
     }
   },
 };
