@@ -1,6 +1,9 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <SiteHeader />
+    <div class="m-auto w-auto">
+      <SiteSlider />
+    </div>
     <main class="flex-grow p-4">
       <HelloWorld msg="Welcome to Your Vue.js App" />
       <!-- Contenedor para las tarjetas -->
@@ -35,11 +38,13 @@ import SiteCard from "./components/commons/SiteCard.vue";
 import SiteHeader from "./components/commons/SiteHeader.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import SiteFooter from "./components/commons/SiteFooter.vue";
+import SiteSlider from "./components/MainDashboard/SiteSlider.vue";
 
 export default {
   name: "App",
   components: {
     SiteHeader,
+    SiteSlider,
     HelloWorld,
     SiteCard,
     SiteFooter,
